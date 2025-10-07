@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Golden Kalahari Retreat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header id="header">
+    <h1>Golden Kalahari Retreat</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#accommodation">Accommodation</a>
+      <a href="#experiences">Experiences</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Nature's Elegance, Namibia's Soul</h2>
+      <p>Experience the luxury and tranquility of the Kalahari Desert</p>
+      <button class="btn">Book Now</button>
+    </div>
+  </section>
+
+  <section id="about">
+    <h3>About Us</h3>
+    <p>Golden Kalahari Retreat offers a luxury, family-friendly escape into the heart of Namibia's breathtaking landscapes. Our lodge blends comfort, elegance, and nature, creating unforgettable experiences in harmony with the desert.</p>
+  </section>
+
+  <section id="accommodation">
+    <h3>Accommodation</h3>
+    <div class="grid accommodation">
+      <div class="card">
+        <img src="images/luxury.png" alt="Luxury Suite">
+        <div class="card-content">
+          <h4>Luxury Suite</h4>
+          <p>Spacious suite with panoramic desert views, ensuite bathroom, and private terrace.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/Comfortable family.png" alt="Family Lodge">
+        <div class="card-content">
+          <h4>Family Lodge</h4>
+          <p>Comfortable family-friendly lodge with all modern amenities and cozy atmosphere.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/glamping.png" alt="Exclusive Tent">
+        <div class="card-content">
+          <h4>Exclusive Tent</h4>
+          <p>Experience luxury glamping with private deck, wilderness views, and exclusive privacy.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experiences">
+    <h3>Experiences</h3>
+    <div class="grid experience">
+      <div class="card">
+        <img src="images/Wildlife Safari.png" alt="Safari">
+        <div class="card-content">
+          <h4>Wildlife Safari</h4>
+          <p>Explore the desert and witness Namibia's incredible wildlife with expert guides.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/Stargazing.png" alt="Stargazing">
+        <div class="card-content">
+          <h4>Stargazing</h4>
+          <p>Enjoy the pristine night skies with telescopes and expert guidance.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/gk-retreat.jpeg" alt="Cultural Experience">
+        <div class="card-content">
+          <h4>Cultural Experience</h4>
+          <p>Meet local communities and immerse yourself in the rich heritage of Namibia.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h3>Gallery</h3>
+    <div class="gallery">
+      <img src="images/Comfortable family.png" alt="Gallery Image 1">
+      <img src="images/gk-retreat.jpeg" alt="Gallery Image 2">
+      <img src="images/glamping.png" alt="Gallery Image 3">
+      <img src="images/luxury.png" alt="Gallery Image 4">
+      <img src="images/Stargazing.png" alt="Gallery Image 5">
+      <img src="images/Wildlife Safari.png" alt="Gallery Image 6">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h3>Contact Us</h3>
+    <div class="contact">
+      <form onsubmit="submitForm(event)">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Golden Kalahari Retreat. All rights reserved.
+  </footer>
+
+  <button id="topBtn" onclick="scrollToTop()">↑ Top</button>
+  <script src="golden.js"></script>
+</body>
+</html>
