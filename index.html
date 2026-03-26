@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Golden Kalahari Retreat | Luxury Desert Escape</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+</head>
+<body>
+
+  <header id="header">
+    <div class="logo-block">
+      <h1>Golden Kalahari Retreat</h1>
+      <p class="tagline">Nature's Elegance,Namibia's Soul • Namibia</p>
+    </div>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu">
+      ☰
+    </button>
+
+    <nav id="mainNav">
+      <a href="#about">About</a>
+      <a href="#highlights">Why Us</a>
+      <a href="#accommodation">Suites</a>
+      <a href="#experiences">Experiences</a>
+      <a href="#dining">Dining</a>
+      <a href="#wellness">Wellness</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="#faq">FAQ</a>
+      <a href="#booking">Booking</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero reveal">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="eyebrow">Nature's Elegance, Namibia's Soul • Namibia</p>
+      <h2>Where Luxury Meets the Soul of Namibia</h2>
+      <p class="hero-text">
+        Experience a refined desert retreat where comfort, nature, and calm exist in perfect balance. Golden Kalahari Retreat invites guests
+        to unwind in elegant surroundings, enjoy curated experiences, and discover the quiet beauty of Namibia’s Kalahari landscape.
+      </p>
+      <div class="hero-buttons">
+        <button class="btn" onclick="scrollToSection('booking')">Reserve Your Stay</button>
+        <button class="btn btn-secondary" onclick="scrollToSection('accommodation')">Explore Accommodation</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="intro-section reveal">
+    <div class="section-heading">
+      <p class="section-label">About the Retreat</p>
+      <h3>A peaceful luxury stay inspired by the beauty of the Kalahari</h3>
+    </div>
+
+    <div class="split-layout">
+      <div>
+        <p>
+          Golden Kalahari Retreat is a luxury lodge concept inspired by the warmth, beauty, and stillness of the Namibian desert. 
+          Created as a peaceful escape for couples, families, and travellers seeking rest and discovery, the retreat blends elegant
+          accommodation with authentic experiences rooted in nature.
+        </p>
+        <p>
+          Set against the breathtaking backdrop of the Kalahari, the retreat offers a balance of privacy, comfort, and connection. 
+          From sunrise views over golden sand dunes to evenings beneath star-filled skies, every stay is designed to feel both restorative and unforgettable.
+        </p>
+        <p>
+          At Golden Kalahari Retreat, guests are welcomed into a space where modern hospitality meets the timeless spirit of Namibia.
+        </p>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-box">
+          <h4>6</h4>
+          <p>Luxury stay options</p>
+        </div>
+        <div class="stat-box">
+          <h4>Family</h4>
+          <p>Friendly environment</p>
+        </div>
+        <div class="stat-box">
+          <h4>Curated</h4>
+          <p>Desert experiences</p>
+        </div>
+        <div class="stat-box">
+          <h4>Namibia</h4>
+          <p>Inspired destination concept</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="highlights" class="reveal">
+    <div class="section-heading">
+      <p class="section-label">Why Stay With Us</p>
+      <h3>Thoughtfully designed for comfort, atmosphere, and memorable desert experiences</h3>
+    </div>
+
+    <div class="experience-grid">
+      <div class="experience-card">
+        <div class="card-content">
+          <h4>Luxury Accommodation</h4>
+          <p>Thoughtfully designed suites, villas, lodges, and tents created for comfort, privacy, and elegant desert living.</p>
+        </div>
+      </div>
+
+      <div class="experience-card">
+        <div class="card-content">
+          <h4>Family-Friendly Experience</h4>
+          <p>Welcoming spaces and accommodation options suited to couples, families, and small groups.</p>
+        </div>
+      </div>
+
+      <div class="experience-card">
+        <div class="card-content">
+          <h4>Immersive Nature</h4>
+          <p>Wake up to panoramic desert views, peaceful surroundings, and the natural beauty of Namibia.</p>
+        </div>
+      </div>
+
+      <div class="experience-card">
+        <div class="card-content">
+          <h4>Curated Activities</h4>
+          <p>Enjoy safari drives, stargazing, and cultural experiences designed to make every stay memorable.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="accommodation" class="reveal">
+    <div class="section-heading">
+      <p class="section-label">Accommodation</p>
+      <h3>Elegant spaces designed for comfort, privacy, and unforgettable desert views</h3>
+    </div>
+
+    <p class="section-intro">
+      Our accommodation has been carefully designed to offer comfort, style, and a close connection to the surrounding desert landscape. 
+      Whether you prefer the elegance of a premium suite, the warmth of a family lodge, or the intimacy of luxury glamping, each stay offers 
+      a unique way to experience Golden Kalahari Retreat.
+    </p>
+
+    <div class="room-grid">
+      <article class="room-card">
+        <img src="images/luxury.png" alt="Luxury Suite">
+        <div class="room-info">
+          <div class="room-top">
+            <h4>Luxury Suite</h4>
+            <span class="price">N$2,850 / night</span>
+          </div>
+          <p class="room-capacity">Ideal for 2 adults</p>
+          <p>
+            The Luxury Suite offers a refined and tranquil stay with beautifully styled interiors, generous space, and uninterrupted views 
+            of the Kalahari. Perfect for couples, this suite combines premium comfort with a peaceful atmosphere ideal for rest and relaxation.
+          </p>
+          <ul class="feature-list">
+            <li>King-size bed</li>
+            <li>Ensuite bathroom</li>
+            <li>Private terrace</li>
+            <li>Air conditioning</li>
+            <li>Mini bar</li>
+            <li>Wi-Fi</li>
+            <li>Tea and coffee station</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="room-card">
+        <img src="images/family-lodge.png" alt="Family Lodge">
+        <div class="room-info">
+          <div class="room-top">
+            <h4>Family Lodge</h4>
+            <span class="price">N$3,950 / night</span>
+          </div>
+          <p class="room-capacity">Ideal for 4 guests</p>
+          <p>
+            The Family Lodge is ideal for guests travelling together and offers a welcoming balance of space, comfort, and convenience. 
+            With room for families or small groups, it creates a warm and relaxing environment in which to enjoy the beauty of the retreat.
+          </p>
+          <ul class="feature-list">
+            <li>Two bedrooms</li>
+            <li>Private bathroom</li>
+            <li>Lounge area</li>
+            <li>Family dining space</li>
+            <li>Air conditioning</li>
+            <li>Wi-Fi</li>
+            <li>Outdoor seating area</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="room-card">
+        <img src="images/exclusive-tent.png" alt="Exclusive Tent">
+        <div class="room-info">
+          <div class="room-top">
+            <h4>Exclusive Tent</h4>
+            <span class="price">N$2,250 / night</span>
+          </div>
+          <p class="room-capacity">Ideal for 2 adults</p>
+          <p>
+            The Exclusive Tent offers an intimate stay surrounded by the sights and stillness of the desert. Designed for guests who want a more 
+            immersive nature experience, it combines rustic charm with thoughtful luxury for a memorable and peaceful escape.
+          </p>
+          <ul class="feature-list">
+            <li>Queen-size bed</li>
+            <li>Ensuite bathroom</li>
+            <li>Private deck</li>
+            <li>Outdoor seating</li>
+            <li>Solar lighting</li>
+            <li>Tea and coffee station</li>
+            <li>Scenic wilderness views</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="room-card">
+        <img src="images/presidential-villa.png" alt="Presidential Villa">
+        <div class="room-info">
+          <div class="room-top">
+            <h4>Presidential Villa</h4>
+            <span class="price">N$6,800 / night</span>
+          </div>
+          <p class="room-capacity">Ideal for 4 adults</p>
+          <p>
+            The Presidential Villa is the retreat’s most exclusive stay option, offering exceptional privacy, generous living space, and a 
+            premium desert escape for guests seeking elevated comfort.
+          </p>
+          <ul class="feature-list">
+            <li>Two ensuite bedrooms</li>
+            <li>Private plunge pool</li>
+            <li>Indoor lounge</li>
+            <li>Dining area</li>
+            <li>Outdoor firepit</li>
+            <li>Mini bar</li>
+            <li>Premium desert views</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="room-card">
+        <img src="images/honeymoon-suite.png" alt="Honeymoon Suite">
+        <div class="room-info">
+          <div class="room-top">
+            <h4>Honeymoon Suite</h4>
+            <span class="price">N$3,400 / night</span>
+          </div>
+          <p class="room-capacity">Ideal for 2 adults</p>
+          <p>
+            Designed for romance and privacy, the Honeymoon Suite offers intimate luxury with elegant interiors, a secluded terrace, 
+            and a peaceful setting for couples.
+          </p>
+          <ul class="feature-list">
+            <li>King-size bed</li>
+            <li>Freestanding bath</li>
+            <li>Private terrace</li>
+            <li>Champagne setup option</li>
+            <li>Air conditioning</li>
+            <li>Wi-Fi</li>
+            <li>Sunrise views</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="room-card">
+        <img src="images/desert-chalet.png" alt="Desert Chalet">
+        <div class="room-info">
+          <div class="room-top">
+            <h4>Desert Chalet</h4>
+            <span class="price">N$3,100 / night</span>
+          </div>
+          <p class="room-capacity">Ideal for 3 guests</p>
+          <p>
+            The Desert Chalet offers a comfortable blend of lodge charm and modern convenience, making it ideal for small families or friends travelling together.
+          </p>
+          <ul class="feature-list">
+            <li>One master bedroom</li>
+            <li>Sleeper couch</li>
+            <li>Private bathroom</li>
+            <li>Outdoor deck</li>
+            <li>Air conditioning</li>
+            <li>Wi-Fi</li>
+            <li>Tea and coffee station</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="experiences" class="reveal">
+    <div class="section-heading">
+      <p class="section-label">Experiences</p>
+      <h3>Discover meaningful moments shaped by nature, culture, and stillness</h3>
+    </div>
+
+    <p class="section-intro">
+      At Golden Kalahari Retreat, every stay is enriched by experiences that celebrate the beauty, culture, and atmosphere of Namibia. 
+      From thrilling outdoor adventures to peaceful evenings under the stars, our activities are designed to create lasting memories.
+    </p>
+
+    <div class="experience-grid">
+      <div class="experience-card">
+        <img src="images/kalahari-safari.jpg" alt="Wildlife Safari">
+        <div class="card-content">
+          <h4>Wildlife Safari</h4>
+          <p>Set out on guided safari drives and discover the unique wildlife and landscapes of the Kalahari with experienced local guides.</p>
+        </div>
+      </div>
+
+      <div class="experience-card">
+        <img src="images/stargazing.jpg" alt="Stargazing Evenings">
+        <div class="card-content">
+          <h4>Stargazing Evenings</h4>
+          <p>Enjoy the magic of Namibia’s night sky through peaceful guided stargazing sessions in one of the world’s most beautiful natural settings.</p>
+        </div>
+      </div>
+
+      <div class="experience-card">
+        <img src="images/kalahari-cultural.jpeg" alt="Cultural Encounters">
+        <div class="card-content">
+          <h4>Cultural Encounters</h4>
+          <p>Connect with local heritage through meaningful experiences inspired by the traditions, stories, and spirit of Namibia.</p>
+        </div>
+      </div>
+
+      <div class="experience-card">
+        <img src="images/kalahari-walk.jpg" alt="Nature Walks">
+        <div class="card-content">
+          <h4>Nature Walks</h4>
+          <p>Take in the beauty of the desert at a slower pace with guided walks that reveal the smaller details of the landscape.</p>
+        </div>
+      </div>
+
+      <div class="experience-card">
+        <img src="images/kalahari-sunset.jpg" alt="Sunset Viewing">
+        <div class="card-content">
+          <h4>Sunset Viewing</h4>
+          <p>End the day with breathtaking desert sunsets in a calm and unforgettable setting.</p>
+        </div>
+      </div>
+
+      <div class="experience-card">
+        <img src="images/kalahari-outdoor.png" alt="Outdoor Dining">
+        <div class="card-content">
+          <h4>Outdoor Dining</h4>
+          <p>Enjoy specially prepared meals in scenic outdoor spaces that elevate the atmosphere of your stay.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="dining" class="reveal">
+    <div class="section-heading">
+      <p class="section-label">Dining</p>
+      <h3>Thoughtfully prepared meals in a warm and elegant setting</h3>
+    </div>
+
+    <p class="section-intro">
+      Dining at Golden Kalahari Retreat is designed to be as memorable as the destination itself. Guests can enjoy fresh, thoughtfully prepared meals inspired by local flavours and international comfort, all served in a warm and elegant setting.
+    </p>
+
+    <div class="experience-grid">
+      <div class="experience-card">
+        <div class="card-content">
+          <h4>Desert Breakfasts</h4>
+          <p>Start your morning with a wholesome breakfast served with fresh coffee, seasonal options, and peaceful desert views.</p>
+        </div>
+      </div>
+
+      <div class="experience-card">
+        <div class="card-content">
+          <h4>Signature Dinners</h4>
+          <p>Enjoy carefully prepared evening meals in a relaxed atmosphere that brings together quality ingredients and refined presentation.</p>
+        </div>
+      </div>
+
+      <div class="experience-card">
+        <div class="card-content">
+          <h4>Private Dining Experiences</h4>
+          <p>For guests seeking something more intimate, private dining can be arranged in selected scenic spaces around the retreat.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="wellness" class="reveal">
+    <div class="section-heading">
+      <p class="section-label">Wellness & Relaxation</p>
+      <h3>A setting created for stillness, comfort, and renewal</h3>
+    </div>
+
+    <p class="section-intro">
+      Golden Kalahari Retreat is a place to slow down, breathe deeply, and reconnect with yourself. From peaceful surroundings 
+      and quiet outdoor spaces to gentle mornings and calm evenings, the retreat is designed to support rest and renewal. 
+      You can also treat yourself to a range of wellness experiences, including massages, yoga sessions, and meditation moments that 
+      enhance the atmosphere of calm and comfort at our Golden Kalahari Retreat Spa located in the main lobby.
+    </p>
+
+    <p class="section-intro">
+      Whether guests are enjoying a private terrace, taking in the stillness of the desert, or simply unwinding after a day of exploration, 
+      every moment is shaped by comfort and calm.
+    </p>
+  </section>
+
+  <section id="gallery" class="reveal">
+  <div class="section-heading">
+    <p class="section-label">Gallery</p>
+    <h3>A glimpse into the atmosphere of Golden Kalahari Retreat</h3>
+  </div>
+
+  <p class="section-intro">
+    Explore moments from Golden Kalahari Retreat and discover the atmosphere, accommodation, and 
+    experiences that define this luxury desert escape.
+  </p>
+
+  <div class="gallery-grid">
+    <img src="images/kalahari-sunset.jpg" alt="Kalahari Sunset" onclick="openLightbox(this)">
+    <img src="images/Logo-.png" alt="GKR LOGO" onclick="openLightbox(this)">
+    <img src="images/signature-dinner.jpg" alt="Signature dinner" onclick="openLightbox(this)">
+    <img src="images/golden-safari.jpg" alt="Golden Safari" onclick="openLightbox(this)">
+    <img src="images/kalahari-dune.jpg" alt="Kalahari Dunes" onclick="openLightbox(this)">
+    <img src="images/kalahari-breakfast.jpg" alt="Kalahari Breakfast" onclick="openLightbox(this)">
+    <img src="images/kalahari-1.jpg" alt="Kalahari 1" onclick="openLightbox(this)">
+    <img src="images/kalahari-2.jpg" alt="Kalahari 2" onclick="openLightbox(this)">
+    <img src="images/kalahari-3.jpg" alt="Kalahari 3" onclick="openLightbox(this)">
+    <img src="images/outdoor-dining.png" alt="Outdoor Dining" onclick="openLightbox(this)">
+  </div>
+</section>
+
+<!-- Lightbox Overlay -->
+<div id="lightboxOverlay" onclick="closeLightbox()">
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+  <section id="testimonials" class="reveal">
+    <div class="section-heading">
+      <p class="section-label">Guest Impressions</p>
+      <h3>Moments guests would remember long after their stay</h3>
+    </div>
+
+    <div class="experience-grid">
+      <div class="experience-card">
+        <div class="card-content">
+          <p>“Golden Kalahari Retreat offered the perfect balance of comfort, privacy, and natural beauty. The stargazing experience was unforgettable.”</p>
+          <h4>Sarah M.</h4>
+        </div>
+      </div>
+
+      <div class="experience-card">
+        <div class="card-content">
+          <p>“Our family loved every moment of our stay. The lodge was spacious, welcoming, and beautifully designed.”</p>
+          <h4>Daniel T.</h4>
+        </div>
+      </div>
+
+      <div class="experience-card">
+        <div class="card-content">
+          <p>“A peaceful and elegant escape unlike anywhere else. From the views to the atmosphere, everything felt special.”</p>
+          <h4>Helena R.</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section id="faq" class="reveal">
+  <div class="section-heading">
+    <p class="section-label">Frequently Asked Questions</p>
+    <h3>Helpful information for planning your stay</h3>
+  </div>
+
+  <div class="faq-list">
+    <div class="faq-item">
+      <h4>What time is check-in and check-out? <span class="arrow">▼</span></h4>
+      <p>Check-in begins at 14:00 and check-out is at 10:00.</p>
+    </div>
+
+    <div class="faq-item">
+      <h4>Is Golden Kalahari Retreat family-friendly? <span class="arrow">▼</span></h4>
+      <p>Yes, the retreat offers family-friendly accommodation options, including the Family Lodge and Desert Chalet.</p>
+    </div>
+
+    <div class="faq-item">
+      <h4>What activities are available at the retreat? <span class="arrow">▼</span></h4>
+      <p>Guests can enjoy wildlife safaris, stargazing, cultural experiences, nature walks, and scenic sunset moments.</p>
+    </div>
+
+    <div class="faq-item">
+      <h4>Is Wi-Fi available? <span class="arrow">▼</span></h4>
+      <p>Yes, Wi-Fi is available in selected accommodation areas.</p>
+    </div>
+
+    <div class="faq-item">
+      <h4>How do I make a booking? <span class="arrow">▼</span></h4>
+      <p>Guests can submit a booking request through the website’s booking form.</p>
+    </div>
+  </div>
+</section>
+
+  <section id="booking" class="booking-section reveal">
+    <div class="section-heading">
+      <p class="section-label">Booking</p>
+      <h3>Reserve your stay at Golden Kalahari Retreat</h3>
+    </div>
+
+    <div class="booking-layout">
+      <div class="booking-copy">
+        <h4>Your desert escape begins here</h4>
+        <p>
+          Plan your escape to Golden Kalahari Retreat by submitting a booking request for your preferred accommodation and 
+          travel dates. Our retreat offers carefully designed stays for couples, families, and guests seeking a peaceful 
+          desert experience.
+        </p>
+
+        <div class="booking-details">
+          <div>
+            <span>Check-in</span>
+            <strong>14:00</strong>
+          </div>
+          <div>
+            <span>Check-out</span>
+            <strong>10:00</strong>
+          </div>
+          <div>
+            <span>Best for</span>
+            <strong>Couples & Families</strong>
+          </div>
+        </div>
+
+        <p class="booking-note">Please note: Check-in and check-out times are subject to availability.</p>
+      </div>
+
+      <form class="booking-form" onsubmit="submitBooking(event)">
+        <input type="text" name="fullname" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+
+        <select name="roomType" required>
+          <option value="">Select Accommodation</option>
+          <option value="Luxury Suite">Luxury Suite</option>
+          <option value="Family Lodge">Family Lodge</option>
+          <option value="Exclusive Tent">Exclusive Tent</option>
+          <option value="Presidential Villa">Presidential Villa</option>
+          <option value="Honeymoon Suite">Honeymoon Suite</option>
+          <option value="Desert Chalet">Desert Chalet</option>
+        </select>
+
+        <div class="form-row">
+          <div>
+            <label for="checkin">Check-In</label>
+            <input type="date" id="checkin" name="checkin" required>
+          </div>
+          <div>
+            <label for="checkout">Check-Out</label>
+            <input type="date" id="checkout" name="checkout" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div>
+            <label for="guests">Guests</label>
+            <input type="number" id="guests" name="guests" min="1" max="6" required>
+          </div>
+          <div>
+            <label for="requests">Special Requests</label>
+            <input type="text" id="requests" name="requests" placeholder="Optional">
+          </div>
+        </div>
+
+        <p class="price-estimate">Estimated Price: <span id="estimatedPrice">N$0</span></p>
+
+        <button type="submit" class="btn">Submit Booking Request</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="contact" class="reveal">
+    <div class="section-heading">
+      <p class="section-label">Contact</p>
+      <h3>Get in touch with the retreat</h3>
+    </div>
+
+    <div class="contact-layout">
+      <div class="contact-info">
+        <h4>Contact Details</h4>
+        <p>We would be delighted to help you plan your stay at Golden Kalahari Retreat. Get in touch with us for booking enquiries, accommodation information, or general questions.</p>
+        <p><strong>Email:</strong> reservations@goldenkalahariretreat.com</p>
+        <p><strong>Phone:</strong> +264 81 234 5678</p>
+        <p><strong>Location:</strong> Kalahari Region, Namibia</p>
+      </div>
+
+      <form class="contact-form" onsubmit="submitForm(event)">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <h4>Golden Kalahari Retreat</h4>
+        <p>Nature's Elegance,Namibia's Soul • Namibia</p>
+        <p>A concept website showcasing premium hospitality branding and front-end design.</p>
+      </div>
+
+      <div>
+        <h4>Explore</h4>
+      <a href="#accommodation">Suites</a>
+      <a href="#experiences">Experiences</a>
+      <a href="#dining">Dining</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="#faq">FAQ</a>
+      </div>
+
+      <div>
+        <h4>Accommodation</h4>
+        <p>Luxury Suite</p>
+        <p>Family Lodge</p>
+        <p>Exclusive Tent</p>
+        <p>Presidential Villa</p>
+        <p>Honeymoon Suite</p>
+        <p>Desert Chalet</p>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <p>reservations@goldenkalahariretreat.com</p>
+        <p>+264 81 234 5678</p>
+        <p>Kalahari Region, Namibia</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Golden Kalahari Retreat. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button id="topBtn" onclick="scrollToTop()">↑ Top</button>
+
+  <script src="golden.js"></script>
+</body>
+</html>
